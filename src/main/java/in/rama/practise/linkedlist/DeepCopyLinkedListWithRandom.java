@@ -6,8 +6,10 @@ public class DeepCopyLinkedListWithRandom {
             return null;
         }
 
+        //set the pointer to the head node
         RandomListNode currentNode = head;
 
+        //Extend the list with the adjacent copy nodes
         while(currentNode != null){
             RandomListNode temp = currentNode.next;
             currentNode.next = new RandomListNode(currentNode.label);
@@ -15,10 +17,17 @@ public class DeepCopyLinkedListWithRandom {
             currentNode = temp;
         }
 
+        //Reset the current pointer to the head node
         currentNode = head;
 
+        //
         while(currentNode != null){
-            currentNode.next.random = currentNode.random.next;
+            if(currentNode.random != null){
+                currentNode.next.random = currentNode.random.next;
+            }else{
+                currentNode.next.random = null;
+            }
+
             currentNode = currentNode.next.next;
         }
 
