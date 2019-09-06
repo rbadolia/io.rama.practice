@@ -1,4 +1,4 @@
-package in.rama.practise.arrays;
+package in.rama.practise.array;
 
 public class MaxAmplitude {
     public static String solution(int[] T) {

@@ -1,6 +1,6 @@
-import in.rama.practise.arrays.CustomeShuffle;
-import in.rama.practise.arrays.FindNumberOfSlices;
-import in.rama.practise.arrays.UniqueCombinations;
+import in.rama.practise.array.CustomeShuffle;
+import in.rama.practise.array.FindNumberOfSlices;
+import in.rama.practise.array.UniqueCombinations;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -18,7 +18,7 @@ public class Main {
         System.out.println(new FindNumberOfSlices().solution(new int[]{-3, -14, -5, 7, 8, 42, 8, 3}));
         System.out.println(new FindNumberOfSlices().solution(new int[]{2, 4, 1, 6, 5, 9, 7}));
 
-        //Merge sorted arrays
+        //Merge sorted array
         List<Integer> a = new ArrayList<>();
         List<Integer> b = new ArrayList<>();
 

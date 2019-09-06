@@ -1,4 +1,4 @@
-package in.rama.practise.arrays;
+package in.rama.practise.array;
 
 public class PancakeSort {
     public int[] pancakeSort(int[] arr) {

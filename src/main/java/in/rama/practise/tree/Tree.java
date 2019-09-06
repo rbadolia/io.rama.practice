@@ -1,4 +1,4 @@
-package in.rama.practise.trees;
+package in.rama.practise.tree;
 
 public class Tree {
     TreeNode root;

@@ -1,4 +1,4 @@
-package in.rama.practise.trees;
+package in.rama.practise.tree;
 
 import org.junit.Assert;
 import org.junit.Test;

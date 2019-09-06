@@ -1,4 +1,4 @@
-package in.rama.practise.arrays;
+package in.rama.practise.array;
 
 import java.util.HashMap;
 import java.util.Map;
